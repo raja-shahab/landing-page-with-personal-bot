@@ -1,0 +1,292 @@
+
+@media screen and (min-width: 375px) and (max-width: 790px) {
+  nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(18, 18, 62);
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 0 8px;
+    font-size: 10px;
+  }
+
+  nav ul li a:hover {
+    text-decoration: none;
+    font-size: 11px;
+    color: rgb(153, 80, 222);
+  }
+
+  .left {
+    width: 70px;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  .leftSection {
+    width: 50%;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .leftSection .btn {
+    width: 110px;
+    padding: 12px;
+    font-size: 8px;
+    margin-bottom: 12px;
+  }
+
+  .rightSection {
+    width: 50%;
+  }
+
+  .rightSection img {
+    width: 80%;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+
+  .secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 65vh;
+    overflow-x: auto;
+  }
+
+  .secondSection h1 {
+    font-size: 1.2rem;
+  }
+
+  .text-gray {
+    color: gray;
+    font-size: 0.7rem;
+  }
+
+  .secondSection .box {
+    background: white;
+    /* min-width: 83vw; */
+    width: 810px;
+    height: 2px;
+    margin: 80px 0;
+    display: flex;
+  }
+
+  .secondSection::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .secondSection .vertical {
+    height: 85px;
+    margin: 0 80px;
+  }
+
+  main hr {
+    margin: 40px 50px;
+  }
+
+  .alltitle {
+    margin-left: 30px;
+    /* font-size: 1.2rem !important;  */
+  }
+
+  .alltitle h1 {
+    font-size: 1rem;
+  }
+
+  .thirdSection {
+    height: auto;
+  }
+
+  .thirdSection h1 {
+    font-size: 1.2rem;
+  }
+
+  .boxes {
+    height: 150px;
+    width: 100%;
+  }
+  .skillbox {
+    width: 22%;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+
+  .frontend {
+    margin-top: 30px !important;
+  }
+
+  .skillbox img {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+  }
+
+  .skillbox h3 {
+    margin-left: 3px;
+    font-size: 12px;
+  }
+
+  .titlee {
+    font-size: 0.9rem;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .alltitle {
+    margin-left: 40px;
+  }
+
+  .fifthSection {
+    width: 100%;
+    height: 550px;
+  }
+
+  .fifthSection h1 {
+    font-size: 1.2rem;
+  }
+
+  .projectbox {
+    height: 130px;
+    margin-top: 20px;
+  }
+
+  .projectno {
+    width: 10%;
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+
+  .projectimg {
+    margin-left: 10px;
+    width: 25%;
+    height: 80%;
+    margin-top: 2%;
+  }
+
+  .projectimg img {
+    border-radius: 10px;
+  }
+
+  .projectdesc {
+    width: 50%;
+    margin-left: 10px;
+    font-size: 0.48rem;
+    font-weight: 400;
+  }
+
+  .fproject {
+    margin-top: 20px;
+  }
+
+  .project-button {
+    height: 50px;
+    margin-top: 10px;
+    right: 30px;
+  }
+
+  .project-button h2 {
+    font-size: 0.7rem;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+
+  .projectbtn {
+    width: 120px;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  /* fourth section */
+  .leftabout {
+    width: 30%;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .rightabout {
+    width: 60%;
+  }
+
+  .rightabout div {
+    font-size: 0.65rem;
+    width: 90%;
+  }
+
+  .rightabout .f {
+    margin-top: 10px;
+  }
+
+  .rightabout .l {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    height: 140px;
+  }
+  .footer {
+    padding: 23px 22px;
+  }
+  .footer > div {
+    width: 153px;
+  }
+
+  .footer-rights {
+    text-align: center;
+    color: rgb(171, 166, 166);
+    margin: 10px 15px;
+  }
+
+  .footer .footer-first {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .footer .footer-second {
+    font-size: 0.5rem;
+    width: 50%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .footerbtn {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .footer-third ul li {
+    list-style: none;
+    font-size: 0.7rem;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  .footer-third ul li a:hover {
+    text-decoration: none;
+    font-size: 0.72rem;
+    color: rgb(153, 80, 222);
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 785px) {
+  .rightSection {
+    width: 50%;
+  }
+
+  .rightSection img {
+    width: 60%;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+}
