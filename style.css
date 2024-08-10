@@ -126,7 +126,7 @@ nav ul li a:hover {
 .services {
   max-width: 80vw;
   margin: auto;
-  height: 150vh;
+  height: 180vh;
 }
 
 .services h1 {
@@ -143,13 +143,12 @@ nav ul li a:hover {
 
 .services-container .services-box {
   flex: 1 1 calc(30% - 3rem); /* Smaller width for boxes */
-  max-width: calc(30% - 3rem);
-  min-width: 250px; /* Reduced minimum width */
+  max-width: calc(20% - 3rem);
+  min-width: 230px; /* Reduced minimum width */
   background: var(--snd-bf-color);
   padding: 1.5rem; /* Reduced padding */
   border-radius: 1rem;
   text-align: center;
-  border: 0.15rem solid  rgb(153, 80, 222);;
   border: 0.15rem solid  rgb(153, 80, 222);;
   transition: 0.5s ease;
 }
